@@ -1,12 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Edit Todo</title>
-</head>
-<body>
+@extends('layout')
+@section('title', 'Page Title')
+@section('sidebar')
+    @parent
+    <p>This refers to the master sidebar.</p>
+@endsection
+@section('content')
     <div>
         <h1>Edit Task Details:</h1>
     </div>
@@ -40,5 +38,4 @@
             <br/>
         </form>
     </div>
-</body>
-</html>
+@endsection

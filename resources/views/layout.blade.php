@@ -37,8 +37,8 @@
         ヘッダー
     </header>
     <nav>
-        <a href="/todos">Home</a>
-        <a href="/todos/add">New Task</a>
+        <a href="{{ route('todos.index') }}">Home</a>
+        {{-- <a href="/todos/add">New Task</a> --}}
     </nav>
 
     <h1>Todos</h1>
@@ -60,7 +60,7 @@
     </main>
 
     <footer>
-        copyrigh 2022 iwasaki
+        copyrigh 2023 saugat
     </footer>
 
     
